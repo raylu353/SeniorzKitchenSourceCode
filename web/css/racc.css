@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 25, 2015, 5:09:50 PM
+    Author     : Cecilia
+*/
+
+
+.navbar-brand span {
+    color:#8CC25B !important;
+}
+
+.nav > li > a{
+    border-bottom: 1px solid #e7e7e7;
+    color:#000;
+}
+
+.sidebar ul li a.active{
+    color:#8CC25B;
+}
+
+.green{
+    color:#8CC25B;
+}
+
+.greenBack{
+    background-color: #8CC25B;
+    border-color: #8CC25B;
+}
+
+@media(min-width:768px) {
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 0 30px;
+        border-left: 1px solid #e7e7e7;
+    };
+}
+
+#page-wrapper {
+    padding: 0 15px;
+    min-height: 568px;
+    background-color: #fff;
+}
+
+.error{
+    color: red;
+}
+
+
+
+.no-js #loader{ 
+    display: none;  
+}
+
+.js #loader{ 
+    display: block; 
+    position: relative; 
+    left: 100px; 
+    top: 0; 
+}
+
+.se-pre-con{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: inherit;
+    height: 100%;
+    z-index: 9999;
+    background: url(img/loading.gif) center no-repeat #fff;
+}
+
